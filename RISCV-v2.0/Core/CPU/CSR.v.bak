@@ -1,0 +1,9 @@
+`ifndef PARAM
+    `include "../Parametros.v"
+`endif
+
+module CSRRegisters(
+   input wire iCLK, IRST, iREGWrite,
+	input wire  [6:0] 	iReadRegister1, iReadRegister2, iWriteRegister,
+	input wire  [31:0] 	iWriteData,
+);

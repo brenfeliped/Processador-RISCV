@@ -1,0 +1,109 @@
+MIF/HEX Update report for TopDE
+Fri Jun 14 20:45:46 2019
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. MIF/HEX Update Summary
+  3. MIF/HEX Update Processed Files
+  4. MIF/HEX Update Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; MIF/HEX Update Summary                                        ;
++-----------------------+---------------------------------------+
+; MIF/HEX Update Status ; Successful - Fri Jun 14 20:45:46 2019 ;
+; Revision Name         ; TopDE                                 ;
+; Top-level Entity Name ; TopDE                                 ;
+; Family                ; Cyclone V                             ;
+; Device                ; 5CSEMA5F31C6                          ;
++-----------------------+---------------------------------------+
+
+
++----------------------------------------------------------------------------------------------+
+; MIF/HEX Update Processed Files                                                               ;
++----------------------------------------------------------------------------------------------+
+; File Name                                                                                    ;
++----------------------------------------------------------------------------------------------+
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/Sintetizador/notes.mif   ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/Sintetizador/sine.mif    ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/VGA/frame0.mif           ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/VGA/frame1.mif           ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE0.rtl.mif ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE1.rtl.mif ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE2.rtl.mif ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE3.rtl.mif ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE4.rtl.mif ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE5.rtl.mif ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE6.rtl.mif ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE7.rtl.mif ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/de1_data.mif             ;
+; C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/de1_text.mif             ;
++----------------------------------------------------------------------------------------------+
+
+
++-------------------------+
+; MIF/HEX Update Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime MIF/HEX Update
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Fri Jun 14 20:43:33 2019
+Info: Command: quartus_cdb RISC-V -c TopDE --update_mif
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (39023): Can't find Memory Initialization File div_s_0002_memoryc2_uid120_invtables_lutmem.hex -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File div_s_0002_memoryc1_uid116_invtables_lutmem.hex -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File div_s_0002_memoryc0_uid113_invtables_lutmem.hex -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File div_s_0002_memoryc0_uid112_invtables_lutmem.hex -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File sqrt_s_0002_memoryc2_uid68_sqrttables_lutmem.hex -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File sqrt_s_0002_memoryc1_uid65_sqrttables_lutmem.hex -- skipped updates for this file
+Warning (39023): Can't find Memory Initialization File sqrt_s_0002_memoryc0_uid62_sqrttables_lutmem.hex -- skipped updates for this file
+Warning (113028): 16375 out of 16384 addresses are uninitialized. The Quartus Prime software will initialize them to "0". There are 1 warnings found, and 1 warnings are reported. File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/de1_text.mif Line: 1
+    Warning (113027): Addresses ranging from 9 to 16383 are not initialized File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/de1_text.mif Line: 1
+Warning (113028): 31744 out of 32768 addresses are uninitialized. The Quartus Prime software will initialize them to "0". There are 1 warnings found, and 1 warnings are reported. File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/de1_data.mif Line: 1
+    Warning (113027): Addresses ranging from 1024 to 32767 are not initialized File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/de1_data.mif Line: 1
+Info (39024): Processed the following Memory Initialization File(s)
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/Sintetizador/notes.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/Sintetizador/notes.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/Sintetizador/sine.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/Sintetizador/sine.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/VGA/frame0.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/VGA/frame0.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/VGA/frame1.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/VGA/frame1.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE0.rtl.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE0.rtl.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE1.rtl.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE1.rtl.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE2.rtl.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE2.rtl.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE3.rtl.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE3.rtl.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE4.rtl.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE4.rtl.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE5.rtl.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE5.rtl.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE6.rtl.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE6.rtl.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE7.rtl.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/db/RISC-V.TopDE7.rtl.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/de1_data.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/de1_data.mif Line: 0
+    Info (39025): Processed Memory Initialization File C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/de1_text.mif File: C:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/de1_text.mif Line: 0
+Info: Quartus Prime MIF/HEX Update was successful. 0 errors, 12 warnings
+    Info: Peak virtual memory: 5074 megabytes
+    Info: Processing ended: Fri Jun 14 20:45:47 2019
+    Info: Elapsed time: 00:02:14
+    Info: Total CPU time (on all processors): 00:02:11
+
+
