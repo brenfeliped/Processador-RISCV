@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Breno Felipe/Documents/Lab3-aoc/Lab3/RISCV-v2.0/Core/simulation/qsim
+vTopDE
+!s110 1560690165
+!i10b 1
+!s100 cj6k_JdbZb<:hNC`[=;`?2
+IAiXCj?7Q;90bm;GJEUEPU2
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/Breno Felipe/Desktop/EXTREME/Lab3-aoc/Lab3/RISCV-v2.0/Core/simulation/qsim
+w1560688504
+8TopDE.vo
+FTopDE.vo
+L0 31
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1560690154.000000
+!s107 TopDE.vo|
+!s90 -work|work|TopDE.vo|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+n@top@d@e
+vTopDE_vlg_vec_tst
+!s110 1560690170
+!i10b 1
+!s100 aeBFmVfAYYB_EF<J15IF53
+IEEiI[V3@QV4lOX[n_kZiG1
+R0
+R1
+w1560690113
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R2
+r1
+!s85 0
+31
+!s108 1560690166.000000
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R3
+R4
+n@top@d@e_vlg_vec_tst
