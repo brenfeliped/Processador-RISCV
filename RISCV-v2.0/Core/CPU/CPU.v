@@ -241,14 +241,20 @@ wire			 wCEscrevePCCond;
 wire			 wCEscrevePCBack;
 wire	[ 1:0] wCOrigAULA;
 wire	[ 1:0] wCOrigBULA;	 
-wire	[ 1:0] wCMem2Reg;
+wire	[ 2:0] wCMem2Reg;
 wire	[ 1:0] wCOrigPC;
 wire			 wCIouD;
 wire			 wCRegWrite;
 wire			 wCMemWrite;
 wire			 wCMemRead;
 wire	[ 4:0] wCALUControl;	 
-wire	[ 5:0] wCState;	
+wire	[ 5:0] wCState;
+// sinais de controle para ecercao e instruçoes CSR
+wire  [31:0] wCUcause;
+wire         wCCSRWrite;
+wire         wCEscreveCRSOut;
+wire	[2:0]  wCOrigWriteDataCSR;
+wire  [1:0]  WCSelectNumRegCSR;
 `ifdef RV32IMF
 wire			 wFPALUReady;
 wire 			 wCFRegWrite;
@@ -265,6 +271,20 @@ Control_MULTI CONTROL0 (
 	.iCLK(iCLK),
 	.iRST(iRST),
 	.iInstr(wInstr),
+	// sinais de input para excecao
+	.iOutText(wOutText),
+	.iOutData(wOutData),
+	.iPCMisaligned(wPCMisaligned),
+	.iExceptionLoad(wExceptionLoad),
+	.iExceptionStore(wExceptionStore),
+	// outputs para excercao e instrucoes csr
+	.oUcause(wCUcause),
+	.oCSRWrite(wCCSRWrite),
+	.oEscreveCRSOut(wCEscreveCRSOut),
+	.oOrigWriteDataCSR(wCOrigWriteDataCSR),
+	.oSelectNumRegCSR(WCSelectNumRegCSR),
+	.oEbreak(wEbreak),
+
 	.oEscreveIR(wCEscreveIR),
 	.oEscrevePC(wCEscrevePC),
 	.oEscrevePCCond(wCEscrevePCCond),
@@ -296,6 +316,7 @@ Control_MULTI CONTROL0 (
 
 // Caminho de Dados
 wire	[31:0] wInstr;
+wire wOutText,wOutData,wPCMisaligned,wExceptionLoad,wExceptionStore;
 	
 Datapath_MULTI DATAPATH0 (
     .iCLK(iCLK),
@@ -339,7 +360,13 @@ Datapath_MULTI DATAPATH0 (
    .wCRegWrite(wCRegWrite),
    .wCMemWrite(wCMemWrite),
 	.wCMemRead(wCMemRead),
-	.wCALUControl(wCALUControl),	 
+	.wCALUControl(wCALUControl),
+	// sinais de  controle exercao e instrucoes CSR
+	.wCUcause(wCUcause),
+	.wCCSRWrite(wCCSRWrite),
+	.wCEscreveCRSOut(wCEscreveCRSOut),
+	.wCOrigWriteDataCSR(wCOrigWriteDataCSR),
+	.WCSelectNumRegCSR(WCSelectNumRegCSR),
 `ifdef RV32IMF
 	.wFPALUReady(wFPALUReady),
 	.wCFRegWrite(wCFRegWrite),
@@ -355,7 +382,13 @@ Datapath_MULTI DATAPATH0 (
     .DwByteEnable(DwByteEnable),
     .DwWriteData(DwWriteData),
     .DwAddress(DwAddress),
-    .DwReadData(DwReadData)
+    .DwReadData(DwReadData),
+	 // sinais output para execao
+	 .oOutText(wOutText),
+	 .oOutData(wOutData),
+	 .oPCMisaligned(wPCMisaligned),
+	 .oExceptionLoad(wExceptionLoad),
+	 .oExceptionStore(wExceptionStore)
 );
 `endif
 

@@ -44,6 +44,7 @@ case(iNumReg)
 					NUMUCAUSE:     oCSRInstOut =ucause;
 					NUMUTVAL:      oCSRInstOut =utval;
 					NUMUIP:        oCSRInstOut =uip;
+					default:       oCSRInstOut =ustatus;
 endcase
 // assign oCSRInstOut = registers[iNumReg];
 //assign oUTVEC   = utvec; // manda o reg(5) utvec como saida 

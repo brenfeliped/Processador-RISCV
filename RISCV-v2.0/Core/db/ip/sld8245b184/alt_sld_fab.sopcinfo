@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="alt_sld_fab" kind="alt_sld_fab" version="1.0" fabric="QSYS">
  <!-- Format version 17.1 590 (Future versions may contain additional information.) -->
- <!-- 2019.06.17.20:54:52 -->
+ <!-- 2019.06.24.10:26:06 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_DEVICE_FAMILY">
   <type>java.lang.String</type>
@@ -56,7 +56,7 @@
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>eaeb24e9569511714bdb</value>
+   <value>297bc51620cddfeb7514</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -104,7 +104,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="EP_INFOS">
    <type>java.lang.String</type>
-   <value>{hpath {DataMemory_Interface:MEMDATA|UserDataBlock:MB0|altsyncram:altsyncram_component|altsyncram_cas1:auto_generated|sld_mod_ram_rom:mgl_prim2} } {hpath {CodeMemory_Interface:MEMCODE|UserCodeBlock:MB0|altsyncram:altsyncram_component|altsyncram_sft1:auto_generated|sld_mod_ram_rom:mgl_prim2} } {hpath {Break_Interface:break0|breaker:brk0|breaker_lpm_constant_kva:breaker_lpm_constant_kva_component|sld_mod_ram_rom:mgl_prim1} } </value>
+   <value>{hpath {Memory_Interface:MEMORY|UserCodeBlock:UCodeMem|altsyncram:altsyncram_component|altsyncram_sft1:auto_generated|sld_mod_ram_rom:mgl_prim2} } {hpath {Memory_Interface:MEMORY|UserDataBlock:UDataMem|altsyncram:altsyncram_component|altsyncram_cas1:auto_generated|sld_mod_ram_rom:mgl_prim2} } {hpath {Break_Interface:break0|breaker:brk0|breaker_lpm_constant_kva:breaker_lpm_constant_kva_component|sld_mod_ram_rom:mgl_prim1} } </value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -2735,7 +2735,7 @@ parameters are a RESULT of the module parameters. -->
 the requested settings for a module instance. -->
   <parameter name="DESIGN_HASH">
    <type>java.lang.String</type>
-   <value>eaeb24e9569511714bdb</value>
+   <value>297bc51620cddfeb7514</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

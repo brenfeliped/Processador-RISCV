@@ -18,8 +18,8 @@ Tiago Rodrigues da Cunha Cabral 			- 15/0150296
 
 // **************************************************** 
 // * Escolha o tipo de processador a ser implementado *
-`define UNICICLO
-//`define MULTICICLO 
+//`define UNICICLO
+`define MULTICICLO 
 //`define PIPELINE
 
 
@@ -111,7 +111,7 @@ parameter
 	OPC_JALR       	= 7'b1100111,
 	OPC_JAL        	= 7'b1101111,
 	OPC_SYS				= 7'b1110111,
-	OPC_URET				= 7'b1110011,
+	//OPC_URET				= 7'b1110011,
 	OPC_FRTYPE        = 7'b1010011,
 	OPC_FLOAD         = 7'b0000111,
 	OPC_FSTORE        = 7'b0100111,	
@@ -129,7 +129,7 @@ parameter
 	FUNCT7_AND			 = 7'b0000000,
 	FUNCT7_MULDIV	    = 7'b0000001,
 	FUNCT7_ECALL		 = 7'b0000000,
-	FUNCT7_URET			 = 7'b0010000,	
+	FUNCT7_URET			 = 7'b0000000,	
 	FUNCT7_FADD_S		 = 7'b0000000,
 	FUNCT7_FSUB_S      = 7'b0000100,
 	FUNCT7_FMUL_S      = 7'b0001000,
@@ -207,6 +207,9 @@ parameter
 
 	
 /* Campo Rs2 */
+   RS2_ECALL         = 5'b00000,
+	RS2_URET          = 5'b00010,
+	RS2_EBREAK        = 5'b00001,
 	RS2_FCVT_S_W      = 5'b00000,
 	RS2_FCVT_S_WU     = 5'b00001,
 	RS2_FCVT_W_S      = 5'b00000,
@@ -322,6 +325,14 @@ parameter
 	ST_SYS				= 6'd17, // nao implementado
 	ST_URET				= 6'd18,	// nao implementado
 	ST_DIVREM			= 6'd19,
+	ST_PCEXCEPTION   = 6'd29,
+	ST_ILEGALINSTRUCTION = 6'd30,
+	ST_ECALL          = 6'd31,
+	ST_CSR            = 6'd32,
+	ST_EXCEPTIONLW    = 6'd33,
+	ST_EXCEPTIONSW    = 6'd34,
+	ST_ENDEXCEPTION   = 6'd35,
+	ST_EBREAK         = 6'd36,
 
 	// Estados FPULA
 	ST_FRTYPE        	= 6'd20, // Estado para instrucoes do tipo R float

@@ -1,25 +1,25 @@
 # do RISC-V.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:02:34 on Jun 16,2019
+# Start time: 08:05:57 on Jun 24,2019
 # vlog -work work TopDE.vo 
 # -- Compiling module TopDE
 # 
 # Top level modules:
 # 	TopDE
-# End time: 10:02:46 on Jun 16,2019, Elapsed time: 0:00:12
+# End time: 08:06:11 on Jun 24,2019, Elapsed time: 0:00:14
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:02:46 on Jun 16,2019
-# vlog -work work Waveform1.vwf.vt 
+# Start time: 08:06:11 on Jun 24,2019
+# vlog -work work Waveform2.vwf.vt 
 # -- Compiling module TopDE_vlg_vec_tst
 # 
 # Top level modules:
 # 	TopDE_vlg_vec_tst
-# End time: 10:02:53 on Jun 16,2019, Elapsed time: 0:00:07
+# End time: 08:06:20 on Jun 24,2019, Elapsed time: 0:00:09
 # Errors: 0, Warnings: 0
 # vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.TopDE_vlg_vec_tst 
-# Start time: 10:02:56 on Jun 16,2019
+# Start time: 08:06:24 on Jun 24,2019
 # Loading work.TopDE_vlg_vec_tst
 # Loading work.TopDE
 # Loading altera_ver.dffeas
@@ -38,568 +38,568 @@
 # Loading altera_lnsim_ver.generic_device_pll
 # Loading altera_lnsim_ver.altera_generic_pll_functions
 # Loading altera_lnsim_ver.generic_pll
-# ** Warning: (vsim-3017) Waveform1.vwf.vt(111): [TFMPC] - Too few port connections. Expected 67, found 58.
+# ** Warning: (vsim-3017) Waveform2.vwf.vt(111): [TFMPC] - Too few port connections. Expected 67, found 58.
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1 File: TopDE.vo
-# ** Warning: (vsim-3722) Waveform1.vwf.vt(111): [TFMPC] - Missing connection for port 'altera_reserved_tms'.
-# ** Warning: (vsim-3722) Waveform1.vwf.vt(111): [TFMPC] - Missing connection for port 'altera_reserved_tck'.
-# ** Warning: (vsim-3722) Waveform1.vwf.vt(111): [TFMPC] - Missing connection for port 'altera_reserved_tdi'.
-# ** Warning: (vsim-3722) Waveform1.vwf.vt(111): [TFMPC] - Missing connection for port 'altera_reserved_tdo'.
-# ** Warning: (vsim-3722) Waveform1.vwf.vt(111): [TFMPC] - Missing connection for port 'ADC_CS_N'.
-# ** Warning: (vsim-3722) Waveform1.vwf.vt(111): [TFMPC] - Missing connection for port 'ADC_DIN'.
-# ** Warning: (vsim-3722) Waveform1.vwf.vt(111): [TFMPC] - Missing connection for port 'ADC_DOUT'.
-# ** Warning: (vsim-3722) Waveform1.vwf.vt(111): [TFMPC] - Missing connection for port 'ADC_SCLK'.
-# ** Warning: (vsim-3722) Waveform1.vwf.vt(111): [TFMPC] - Missing connection for port 'Escreve_FReg'.
+# ** Warning: (vsim-3722) Waveform2.vwf.vt(111): [TFMPC] - Missing connection for port 'altera_reserved_tms'.
+# ** Warning: (vsim-3722) Waveform2.vwf.vt(111): [TFMPC] - Missing connection for port 'altera_reserved_tck'.
+# ** Warning: (vsim-3722) Waveform2.vwf.vt(111): [TFMPC] - Missing connection for port 'altera_reserved_tdi'.
+# ** Warning: (vsim-3722) Waveform2.vwf.vt(111): [TFMPC] - Missing connection for port 'altera_reserved_tdo'.
+# ** Warning: (vsim-3722) Waveform2.vwf.vt(111): [TFMPC] - Missing connection for port 'ADC_CS_N'.
+# ** Warning: (vsim-3722) Waveform2.vwf.vt(111): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) Waveform2.vwf.vt(111): [TFMPC] - Missing connection for port 'ADC_DOUT'.
+# ** Warning: (vsim-3722) Waveform2.vwf.vt(111): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-3722) Waveform2.vwf.vt(111): [TFMPC] - Missing connection for port 'Escreve_FReg'.
 # Loading altera_ver.PRIM_GDFF_LOW
-# ** Warning: (vsim-3017) TopDE.vo(45095): [TFMPC] - Too few port connections. Expected 15, found 14.
+# ** Warning: (vsim-3017) TopDE.vo(44556): [TFMPC] - Too few port connections. Expected 15, found 14.
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CLOCK0|PLL1|pll_main_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  File: nofile
-# ** Warning: (vsim-3722) TopDE.vo(45095): [TFMPC] - Missing connection for port 'pllen'.
+# ** Warning: (vsim-3722) TopDE.vo(44556): [TFMPC] - Missing connection for port 'pllen'.
 # ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CLOCK0|PLL1|pll_main_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
-# ** Warning: (vsim-3017) TopDE.vo(45257): [TFMPC] - Too few port connections. Expected 24, found 23.
+# ** Warning: (vsim-3017) TopDE.vo(44737): [TFMPC] - Too few port connections. Expected 24, found 23.
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CLOCK0|PLL1|pll_main_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  File: nofile
-# ** Warning: (vsim-3722) TopDE.vo(45257): [TFMPC] - Missing connection for port 'vsspl'.
+# ** Warning: (vsim-3722) TopDE.vo(44737): [TFMPC] - Missing connection for port 'vsspl'.
 # ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CLOCK0|PLL1|pll_main_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected> File: nofile
 # ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CLOCK0|PLL1|pll_main_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3017) TopDE.vo(47321): [TFMPC] - Too few port connections. Expected 21, found 14.
+# ** Warning: (vsim-3017) TopDE.vo(47853): [TFMPC] - Too few port connections. Expected 21, found 14.
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/altera_internal_jtag File: nofile
-# ** Warning: (vsim-3722) TopDE.vo(47321): [TFMPC] - Missing connection for port 'ntrst'.
-# ** Warning: (vsim-3722) TopDE.vo(47321): [TFMPC] - Missing connection for port 'corectl'.
-# ** Warning: (vsim-3722) TopDE.vo(47321): [TFMPC] - Missing connection for port 'ntdopinena'.
-# ** Warning: (vsim-3722) TopDE.vo(47321): [TFMPC] - Missing connection for port 'tckcore'.
-# ** Warning: (vsim-3722) TopDE.vo(47321): [TFMPC] - Missing connection for port 'tdicore'.
-# ** Warning: (vsim-3722) TopDE.vo(47321): [TFMPC] - Missing connection for port 'tmscore'.
-# ** Warning: (vsim-3722) TopDE.vo(47321): [TFMPC] - Missing connection for port 'tdocore'.
-# ** Warning: (vsim-3017) TopDE.vo(88552): [TFMPC] - Too few port connections. Expected 15, found 14.
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  File: nofile
-# ** Warning: (vsim-3722) TopDE.vo(88552): [TFMPC] - Missing connection for port 'pllen'.
-# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
-# ** Warning: (vsim-3017) TopDE.vo(88579): [TFMPC] - Too few port connections. Expected 24, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  File: nofile
-# ** Warning: (vsim-3722) TopDE.vo(88579): [TFMPC] - Missing connection for port 'vsspl'.
-# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected> File: nofile
-# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(138787): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(138787): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(138787): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(138787): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(138787): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(138787): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140527): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140527): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140527): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140527): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140527): [PCDPC] - Port size (14) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140527): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140609): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~136  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140609): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~136  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140609): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~136  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140609): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~136  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140697): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140697): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140697): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140697): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140697): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(140697): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(174959): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(174959): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(174959): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(174959): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(174959): [PCDPC] - Port size (19) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(174959): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175042): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~507  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175042): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~507  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175042): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~507  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175042): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~507  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175905): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~892  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175905): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~892  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175905): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~892  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175905): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~892  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175992): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175992): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175992): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175992): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175992): [PCDPC] - Port size (14) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(175992): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176073): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176073): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176073): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176073): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176073): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176073): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176921): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176921): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176921): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176921): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(176921): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140  File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246682): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246682): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246682): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246682): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246682): [PCDPC] - Port size (5) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246682): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246764): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246764): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246764): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246764): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(246764): [PCDPC] - Port size (10) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3017) TopDE.vo(271970): [TFMPC] - Too few port connections. Expected 15, found 14.
+# ** Warning: (vsim-3722) TopDE.vo(47853): [TFMPC] - Missing connection for port 'ntrst'.
+# ** Warning: (vsim-3722) TopDE.vo(47853): [TFMPC] - Missing connection for port 'corectl'.
+# ** Warning: (vsim-3722) TopDE.vo(47853): [TFMPC] - Missing connection for port 'ntdopinena'.
+# ** Warning: (vsim-3722) TopDE.vo(47853): [TFMPC] - Missing connection for port 'tckcore'.
+# ** Warning: (vsim-3722) TopDE.vo(47853): [TFMPC] - Missing connection for port 'tdicore'.
+# ** Warning: (vsim-3722) TopDE.vo(47853): [TFMPC] - Missing connection for port 'tmscore'.
+# ** Warning: (vsim-3722) TopDE.vo(47853): [TFMPC] - Missing connection for port 'tdocore'.
+# ** Warning: (vsim-3017) TopDE.vo(68703): [TFMPC] - Too few port connections. Expected 15, found 14.
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Audio0|pll1|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  File: nofile
-# ** Warning: (vsim-3722) TopDE.vo(271970): [TFMPC] - Missing connection for port 'pllen'.
+# ** Warning: (vsim-3722) TopDE.vo(68703): [TFMPC] - Missing connection for port 'pllen'.
 # ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Audio0|pll1|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
-# ** Warning: (vsim-3017) TopDE.vo(271997): [TFMPC] - Too few port connections. Expected 24, found 23.
+# ** Warning: (vsim-3017) TopDE.vo(68730): [TFMPC] - Too few port connections. Expected 24, found 23.
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Audio0|pll1|pll_audio_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  File: nofile
-# ** Warning: (vsim-3722) TopDE.vo(271997): [TFMPC] - Missing connection for port 'vsspl'.
+# ** Warning: (vsim-3722) TopDE.vo(68730): [TFMPC] - Missing connection for port 'vsspl'.
 # ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Audio0|pll1|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected> File: nofile
 # ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Audio0|pll1|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(296237): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(296237): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(296237): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(296237): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(296237): [PCDPC] - Port size (12) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(296237): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
+# ** Warning: (vsim-3017) TopDE.vo(72460): [TFMPC] - Too few port connections. Expected 15, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT  File: nofile
+# ** Warning: (vsim-3722) TopDE.vo(72460): [TFMPC] - Missing connection for port 'pllen'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~PLL_REFCLK_SELECT /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
+# ** Warning: (vsim-3017) TopDE.vo(72487): [TFMPC] - Too few port connections. Expected 24, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL  File: nofile
+# ** Warning: (vsim-3722) TopDE.vo(72487): [TFMPC] - Missing connection for port 'vsspl'.
+# ** Warning: (vsim-3017) <protected>(<protected>): [TFMPC] - Too few port connections. Expected <protected>, found <protected>.
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected> File: nofile
+# ** Warning: (vsim-3722) <protected>(<protected>): [TFMPC] - Missing connection for port '<protected>'.
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(299272): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(299272): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(299272): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(299272): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(299272): [PCDPC] - Port size (16) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(299272): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(350955): Port type is incompatible with connection (port 'ax').
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~PLL_RECONFIG /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3016) TopDE.vo(161733): Port type is incompatible with connection (port 'ax').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|mul1|mul_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(350955): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(161733): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|mul1|mul_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(350955): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(161733): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|mul1|mul_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(350955): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(161733): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|mul1|mul_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(350955): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(161733): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|mul1|mul_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(350955): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(161733): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|mul1|mul_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(350955): [PCDPC] - Port size (24) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(161733): [PCDPC] - Port size (24) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|mul1|mul_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(350955): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(161733): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|mul1|mul_s_inst|Mult0~8  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|mul1|mul_s_inst|Mult0~8 /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|mul1|mul_s_inst|Mult0~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(352303): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(164035): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(352303): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(164035): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(352303): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(164035): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(352303): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(164035): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(352303): [PCDPC] - Port size (12) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(164035): [PCDPC] - Port size (12) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(352303): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(164035): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult0~8  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult0~8 /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult0~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(354519): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(165769): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(354519): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(165769): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(354519): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(165769): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(354519): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(165769): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(354519): [PCDPC] - Port size (14) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(165769): [PCDPC] - Port size (14) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(354519): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(165769): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult1~8  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult1~8 /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult1~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(356225): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(167966): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(356225): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(167966): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(356225): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(167966): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(356225): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(167966): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(356225): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(167966): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(356225): [PCDPC] - Port size (24) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(167966): [PCDPC] - Port size (24) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(356225): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(167966): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult2~8  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult2~8 /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|div1|div_s_inst|Mult2~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(421935): Port type is incompatible with connection (port 'ax').
+# ** Warning: (vsim-3015) TopDE.vo(198527): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(198527): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(198527): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(198527): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(198527): [PCDPC] - Port size (12) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(198527): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult0~8 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(200326): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(200326): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(200326): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(200326): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(200326): [PCDPC] - Port size (16) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(200326): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|FPALU0|sqrt1|sqrt_s_inst|Mult1~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(224653): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(224653): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(224653): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(224653): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(224653): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~140 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255456): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255456): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255456): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255456): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255456): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255456): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~mult_llmac /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255538): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~507  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255538): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~507  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255538): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~507  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255538): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~507  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255699): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255699): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255699): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255699): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255699): [PCDPC] - Port size (19) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(255699): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult0~852 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256581): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~136  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256581): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~136  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256581): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~136  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256581): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~136  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256667): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256667): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256667): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256667): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256667): [PCDPC] - Port size (14) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256667): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~822 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256747): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256747): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256747): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256747): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256747): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(256747): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult1~477 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257640): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257640): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257640): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257640): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257640): [PCDPC] - Port size (14) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257640): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1582 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257720): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~892  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257720): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~892  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257720): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~892  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257720): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~892  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257806): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257806): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257806): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257806): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257806): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(257806): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1233 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335355): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335355): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335355): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335355): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335355): [PCDPC] - Port size (5) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335355): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~1923 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335436): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335436): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335436): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335436): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(335436): [PCDPC] - Port size (10) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\CPU0|DATAPATH0|ALU0|Mult2~mult_h_mult_hlmac /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3016) TopDE.vo(508749): Port type is incompatible with connection (port 'ax').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|SSC1|Mult0~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(421935): Port type is incompatible with connection (port 'ax').
+# ** Warning: (vsim-3016) TopDE.vo(508749): Port type is incompatible with connection (port 'ax').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|SSC1|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(421935): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(508749): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|SSC1|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(421935): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(508749): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|SSC1|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(421935): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(508749): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|SSC1|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(421935): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(508749): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|SSC1|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(421935): [PCDPC] - Port size (13) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(508749): [PCDPC] - Port size (13) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|SSC1|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(421935): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(508749): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|SSC1|Mult0~8  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|SSC1|Mult0~8 /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|SSC1|Mult0~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566735): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(579998): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566735): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(579998): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566735): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(579998): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566735): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(579998): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566735): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(579998): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566735): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(579998): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566735): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(579998): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566735): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(579998): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566735): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(579998): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566735): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(579998): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566735): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(579998): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8 /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult3~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566863): Port type is incompatible with connection (port 'ax').
+# ** Warning: (vsim-3016) TopDE.vo(580083): Port type is incompatible with connection (port 'ax').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566863): Port type is incompatible with connection (port 'ax').
+# ** Warning: (vsim-3016) TopDE.vo(580083): Port type is incompatible with connection (port 'ax').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566863): Port type is incompatible with connection (port 'ax').
+# ** Warning: (vsim-3016) TopDE.vo(580083): Port type is incompatible with connection (port 'ax').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566863): Port type is incompatible with connection (port 'ax').
+# ** Warning: (vsim-3016) TopDE.vo(580083): Port type is incompatible with connection (port 'ax').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566863): Port type is incompatible with connection (port 'ax').
+# ** Warning: (vsim-3016) TopDE.vo(580083): Port type is incompatible with connection (port 'ax').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566863): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(580083): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566863): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(580083): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566863): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(580083): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566863): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(580083): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(566863): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(580083): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566863): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580083): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566863): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580083): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566863): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580083): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566863): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580083): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566863): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580083): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566863): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580083): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult4~mac /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566965): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580187): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566965): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580187): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566965): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580187): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566965): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580187): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566965): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580187): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(566965): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580187): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_llmac  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_llmac /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_llmac /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567050): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580272): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567050): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580272): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567050): [PCDPC] - Port size (15) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580272): [PCDPC] - Port size (15) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567050): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580272): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_hlmac  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_hlmac /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult0~mult_hlmac /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567141): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580363): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult1~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567141): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580363): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult1~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567141): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580363): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult1~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567141): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580363): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult1~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567141): [PCDPC] - Port size (19) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580363): [PCDPC] - Port size (19) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult1~mac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567141): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580363): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult1~mac  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult1~mac /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult1~mac /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567280): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580749): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567280): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580749): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567280): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580749): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567280): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580749): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567280): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580749): [PCDPC] - Port size (18) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_llmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567280): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580749): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_llmac  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_llmac /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_llmac /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567390): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580834): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567390): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580834): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567390): [PCDPC] - Port size (16) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580834): [PCDPC] - Port size (16) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_hlmac  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(567390): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(580834): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_hlmac  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_hlmac /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|digitalFilter|Mult2~mult_hlmac /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(585086): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(599338): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(585086): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(599338): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(585086): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(599338): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(585086): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(599338): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(585086): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(599338): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(585086): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(599338): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(585086): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(599338): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3016) TopDE.vo(585086): Port type is incompatible with connection (port 'ay').
+# ** Warning: (vsim-3016) TopDE.vo(599338): Port type is incompatible with connection (port 'ay').
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585086): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599338): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585086): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599338): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585086): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599338): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585086): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599338): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585086): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599338): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585086): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599338): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8 /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult1~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585241): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585241): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585241): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585241): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585241): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585241): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
-#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
-#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585671): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599479): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585671): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599479): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585671): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599479): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585671): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599479): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585671): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599479): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult2~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(585671): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599479): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult2~8  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult2~8 /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult2~8 /<protected>/<protected> File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(587712): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(599579): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(599579): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(599579): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(599579): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(599579): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(599579): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8  File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
+#    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|envelope|Mult0~8 /<protected>/<protected> File: nofile
+# ** Warning: (vsim-3015) TopDE.vo(601827): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(587712): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(601827): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(587712): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(601827): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(587712): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(601827): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(587712): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(601827): [PCDPC] - Port size (8) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|Mult0~8  File: nofile
-# ** Warning: (vsim-3015) TopDE.vo(587712): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+# ** Warning: (vsim-3015) TopDE.vo(601827): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
 #    Time: 0 ps  Iteration: 0  Instance: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|Mult0~8  File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|Mult0~8 /<protected>/<protected> File: nofile
 # ** Warning: (vsim-3015) <protected>(<protected>): [PCDPC] - Port size (<protected>) does not match connection size (<protected>) for <protected>.<protected>
 #    Time: 0 ps  Iteration: 0  Protected: /TopDE_vlg_vec_tst/i1/\Sintetizador0|S1|synth|sampleSynthesizer|Mult0~8 /<protected>/<protected> File: nofile
-# ** Warning: Design size of 161754 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# ** Warning: Design size of 158146 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
-# after#39
+# after#40
 # 
 # Warning: por to CB BFM is not connected, internal por is used.
 # 
@@ -651,62 +651,6 @@
 # Info: sim_additional_refclk_cycles_to_lock = 0
 # Info: output_clock_high_period = 1250.000000
 # Info: output_clock_low_period = 1250.000000
-# 
-# Warning: por to CB BFM is not connected, internal por is used.
-# 
-# Simulation time: 0 ps
-# Simulation time: 0 ps
-# 
-# Warning: por to CB BFM is not connected, internal por is used.
-# 
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 mhz
-# Info: output_clock_frequency = 300.0 mhz
-# Info: phase_shift = 0 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 1666.666667
-# Info: output_clock_low_period = 1666.666667
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 mhz
-# Info: output_clock_frequency = 300.0 mhz
-# Info: phase_shift = 416 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 1666.666667
-# Info: output_clock_low_period = 1666.666667
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 mhz
-# Info: output_clock_frequency = 300.0 mhz
-# Info: phase_shift = 832 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 1666.666667
-# Info: output_clock_low_period = 1666.666667
-# Info: =================================================
-# Info:           Generic PLL Summary
-# Info: =================================================
-# Time scale of (TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen) is  1ps /  1ps
-# Info: hierarchical_name = TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen
-# Info: reference_clock_frequency = 50.0 mhz
-# Info: output_clock_frequency = 300.0 mhz
-# Info: phase_shift = 1248 ps
-# Info: duty_cycle = 50
-# Info: sim_additional_refclk_cycles_to_lock = 0
-# Info: output_clock_high_period = 1666.666667
-# Info: output_clock_low_period = 1666.666667
 # 
 # Warning: por to CB BFM is not connected, internal por is used.
 # 
@@ -764,6 +708,60 @@
 # 
 # Warning: por to CB BFM is not connected, internal por is used.
 # 
+# 
+# Warning: por to CB BFM is not connected, internal por is used.
+# 
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_0.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_1.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 416 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_2.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 832 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = TopDE_vlg_vec_tst.i1.\VGA0|VGA0|xx|vgapll_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL .<protected>.<protected>.<protected>.inst_pll_phase_3.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 mhz
+# Info: output_clock_frequency = 300.0 mhz
+# Info: phase_shift = 1248 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 1666.666667
+# Info: output_clock_low_period = 1666.666667
+# 
+# Warning: por to CB BFM is not connected, internal por is used.
+# 
 # Simulation time: 0 ps
 # Simulation time: 0 ps
 # Simulation time: 0 ps
@@ -802,27 +800,297 @@
 # Simulation time: 0 ps
 # Simulation time: 0 ps
 # Simulation time: 0 ps
-# Simulation time: 453334 ps
-# Simulation time: 453334 ps
-# Simulation time: 453334 ps
-# Simulation time: 453334 ps
-# Simulation time: 453334 ps
-# Simulation time: 453334 ps
-# Simulation time: 453334 ps
-# Simulation time: 453334 ps
-# Simulation time: 1058240 ps
-# Simulation time: 1058240 ps
-# Simulation time: 1058240 ps
-# Simulation time: 1058240 ps
-# Simulation time: 1058240 ps
-# Simulation time: 1058240 ps
-# Simulation time: 1058240 ps
-# Simulation time: 1058240 ps
-# Simulation time: 1665770 ps
-# Simulation time: 1665770 ps
-# Simulation time: 1665770 ps
-# Simulation time: 1665770 ps
-# ** Note: $finish    : Waveform1.vwf.vt(174)
-#    Time: 2 us  Iteration: 0  Instance: /TopDE_vlg_vec_tst
-# End time: 10:05:26 on Jun 16,2019, Elapsed time: 0:02:30
+# Simulation time: 0 ps
+# Simulation time: 0 ps
+# Simulation time: 472770 ps
+# Simulation time: 472770 ps
+# Simulation time: 472770 ps
+# Simulation time: 472770 ps
+# Simulation time: 472770 ps
+# Simulation time: 472770 ps
+# Simulation time: 472770 ps
+# Simulation time: 472770 ps
+# Simulation time: 1132501 ps
+# Simulation time: 1132501 ps
+# Simulation time: 1132501 ps
+# Simulation time: 1132501 ps
+# Simulation time: 1132501 ps
+# Simulation time: 1132501 ps
+# Simulation time: 1132501 ps
+# Simulation time: 1132501 ps
+# Simulation time: 1622500 ps
+# Simulation time: 1622500 ps
+# Simulation time: 1622500 ps
+# Simulation time: 1622500 ps
+# Simulation time: 1622500 ps
+# Simulation time: 1622500 ps
+# Simulation time: 1622500 ps
+# Simulation time: 1622500 ps
+# Simulation time: 2282500 ps
+# Simulation time: 2282500 ps
+# Simulation time: 2282500 ps
+# Simulation time: 2282500 ps
+# Simulation time: 2282500 ps
+# Simulation time: 2282500 ps
+# Simulation time: 2282500 ps
+# Simulation time: 2282500 ps
+# Simulation time: 2773334 ps
+# Simulation time: 2773334 ps
+# Simulation time: 2773334 ps
+# Simulation time: 2773334 ps
+# Simulation time: 2773334 ps
+# Simulation time: 2773334 ps
+# Simulation time: 2773334 ps
+# Simulation time: 2773334 ps
+# Simulation time: 3422500 ps
+# Simulation time: 3422500 ps
+# Simulation time: 3422500 ps
+# Simulation time: 3422500 ps
+# Simulation time: 3422500 ps
+# Simulation time: 3422500 ps
+# Simulation time: 3422500 ps
+# Simulation time: 3422500 ps
+# Simulation time: 3912500 ps
+# Simulation time: 3912500 ps
+# Simulation time: 3912500 ps
+# Simulation time: 3912500 ps
+# Simulation time: 3912500 ps
+# Simulation time: 3912500 ps
+# Simulation time: 3912500 ps
+# Simulation time: 3912500 ps
+# Simulation time: 4342500 ps
+# Simulation time: 4342500 ps
+# Simulation time: 4342500 ps
+# Simulation time: 4342500 ps
+# Simulation time: 4342500 ps
+# Simulation time: 4342500 ps
+# Simulation time: 4342500 ps
+# Simulation time: 4342500 ps
+# Simulation time: 4730580 ps
+# Simulation time: 4730580 ps
+# Simulation time: 4730580 ps
+# Simulation time: 4730580 ps
+# Simulation time: 4730580 ps
+# Simulation time: 4730580 ps
+# Simulation time: 4730580 ps
+# Simulation time: 5112720 ps
+# Simulation time: 5112720 ps
+# Simulation time: 5112720 ps
+# Simulation time: 5112720 ps
+# Simulation time: 5112720 ps
+# Simulation time: 5112720 ps
+# Simulation time: 5112720 ps
+# Simulation time: 5112720 ps
+# Simulation time: 5722500 ps
+# Simulation time: 5722500 ps
+# Simulation time: 5722500 ps
+# Simulation time: 5722500 ps
+# Simulation time: 5722500 ps
+# Simulation time: 5722500 ps
+# Simulation time: 5722500 ps
+# Simulation time: 5722500 ps
+# Simulation time: 6169150 ps
+# Simulation time: 6169150 ps
+# Simulation time: 6169150 ps
+# Simulation time: 6169150 ps
+# Simulation time: 6169150 ps
+# Simulation time: 6169150 ps
+# Simulation time: 6169150 ps
+# Simulation time: 6169150 ps
+# Simulation time: 6726070 ps
+# Simulation time: 6726070 ps
+# Simulation time: 6726070 ps
+# Simulation time: 6726070 ps
+# Simulation time: 6726070 ps
+# Simulation time: 6726070 ps
+# Simulation time: 6726070 ps
+# Simulation time: 6726070 ps
+# Simulation time: 7152480 ps
+# Simulation time: 7152480 ps
+# Simulation time: 7152480 ps
+# Simulation time: 7152480 ps
+# Simulation time: 7152480 ps
+# Simulation time: 7152480 ps
+# Simulation time: 7152480 ps
+# Simulation time: 7152480 ps
+# Simulation time: 7633334 ps
+# Simulation time: 7633334 ps
+# Simulation time: 7633334 ps
+# Simulation time: 7633334 ps
+# Simulation time: 7633334 ps
+# Simulation time: 7633334 ps
+# Simulation time: 7633334 ps
+# Simulation time: 7633334 ps
+# Simulation time: 8259410 ps
+# Simulation time: 8259410 ps
+# Simulation time: 8259410 ps
+# Simulation time: 8259410 ps
+# Simulation time: 8259410 ps
+# Simulation time: 8259410 ps
+# Simulation time: 8259410 ps
+# Simulation time: 8259410 ps
+# Simulation time: 8642500 ps
+# Simulation time: 8642500 ps
+# Simulation time: 8642500 ps
+# Simulation time: 8642500 ps
+# Simulation time: 8642500 ps
+# Simulation time: 8642500 ps
+# Simulation time: 8642500 ps
+# Simulation time: 8642500 ps
+# Simulation time: 9172500 ps
+# Simulation time: 9172500 ps
+# Simulation time: 9172500 ps
+# Simulation time: 9172500 ps
+# Simulation time: 9172500 ps
+# Simulation time: 9172500 ps
+# Simulation time: 9172500 ps
+# Simulation time: 9172500 ps
+# Simulation time: 9542500 ps
+# Simulation time: 9542500 ps
+# Simulation time: 9542500 ps
+# Simulation time: 9542500 ps
+# Simulation time: 9542500 ps
+# Simulation time: 9542500 ps
+# Simulation time: 9542500 ps
+# Simulation time: 9542500 ps
+# Simulation time: 10022500 ps
+# Simulation time: 10022500 ps
+# Simulation time: 10022500 ps
+# Simulation time: 10022500 ps
+# Simulation time: 10022500 ps
+# Simulation time: 10022500 ps
+# Simulation time: 10022500 ps
+# Simulation time: 10022500 ps
+# Simulation time: 10592500 ps
+# Simulation time: 10592500 ps
+# Simulation time: 10592500 ps
+# Simulation time: 10592500 ps
+# Simulation time: 10592500 ps
+# Simulation time: 10592500 ps
+# Simulation time: 10592500 ps
+# Simulation time: 10592500 ps
+# Simulation time: 10957970 ps
+# Simulation time: 10957970 ps
+# Simulation time: 10957970 ps
+# Simulation time: 10957970 ps
+# Simulation time: 10957970 ps
+# Simulation time: 10957970 ps
+# Simulation time: 10957970 ps
+# Simulation time: 10957970 ps
+# Simulation time: 11480130 ps
+# Simulation time: 11480130 ps
+# Simulation time: 11480130 ps
+# Simulation time: 11480130 ps
+# Simulation time: 11480130 ps
+# Simulation time: 11480130 ps
+# Simulation time: 11480130 ps
+# Simulation time: 11480130 ps
+# Simulation time: 12073334 ps
+# Simulation time: 12073334 ps
+# Simulation time: 12073334 ps
+# Simulation time: 12073334 ps
+# Simulation time: 12073334 ps
+# Simulation time: 12073334 ps
+# Simulation time: 12073334 ps
+# Simulation time: 12073334 ps
+# Simulation time: 12692500 ps
+# Simulation time: 12692500 ps
+# Simulation time: 12692500 ps
+# Simulation time: 12692500 ps
+# Simulation time: 12692500 ps
+# Simulation time: 12692500 ps
+# Simulation time: 12692500 ps
+# Simulation time: 12692500 ps
+# Simulation time: 13313335 ps
+# Simulation time: 13313335 ps
+# Simulation time: 13313335 ps
+# Simulation time: 13313335 ps
+# Simulation time: 13313335 ps
+# Simulation time: 13313335 ps
+# Simulation time: 13313335 ps
+# Simulation time: 13313335 ps
+# Simulation time: 13911874 ps
+# Simulation time: 13911874 ps
+# Simulation time: 13911874 ps
+# Simulation time: 13911874 ps
+# Simulation time: 13911874 ps
+# Simulation time: 13911874 ps
+# Simulation time: 13911874 ps
+# Simulation time: 13911874 ps
+# Simulation time: 14472501 ps
+# Simulation time: 14472501 ps
+# Simulation time: 14472501 ps
+# Simulation time: 14472501 ps
+# Simulation time: 14472501 ps
+# Simulation time: 14472501 ps
+# Simulation time: 14472501 ps
+# Simulation time: 14472501 ps
+# Simulation time: 15085460 ps
+# Simulation time: 15085460 ps
+# Simulation time: 15085460 ps
+# Simulation time: 15085460 ps
+# Simulation time: 15085460 ps
+# Simulation time: 15085460 ps
+# Simulation time: 15085460 ps
+# Simulation time: 15085460 ps
+# Simulation time: 15649290 ps
+# Simulation time: 15649290 ps
+# Simulation time: 15649290 ps
+# Simulation time: 15649290 ps
+# Simulation time: 15649290 ps
+# Simulation time: 15649290 ps
+# Simulation time: 15649290 ps
+# Simulation time: 15649290 ps
+# Simulation time: 16202500 ps
+# Simulation time: 16202500 ps
+# Simulation time: 16202500 ps
+# Simulation time: 16202500 ps
+# Simulation time: 16202500 ps
+# Simulation time: 16202500 ps
+# Simulation time: 16202500 ps
+# Simulation time: 16202500 ps
+# Simulation time: 16812500 ps
+# Simulation time: 16812500 ps
+# Simulation time: 16812500 ps
+# Simulation time: 16812500 ps
+# Simulation time: 16812500 ps
+# Simulation time: 16812500 ps
+# Simulation time: 16812500 ps
+# Simulation time: 16812500 ps
+# Simulation time: 17432500 ps
+# Simulation time: 17432500 ps
+# Simulation time: 17432500 ps
+# Simulation time: 17432500 ps
+# Simulation time: 17432500 ps
+# Simulation time: 17432500 ps
+# Simulation time: 17432500 ps
+# Simulation time: 17432500 ps
+# Simulation time: 18058300 ps
+# Simulation time: 18058300 ps
+# Simulation time: 18058300 ps
+# Simulation time: 18058300 ps
+# Simulation time: 18058300 ps
+# Simulation time: 18058300 ps
+# Simulation time: 18058300 ps
+# Simulation time: 18058300 ps
+# Simulation time: 18682500 ps
+# Simulation time: 18682500 ps
+# Simulation time: 18682500 ps
+# Simulation time: 18682500 ps
+# Simulation time: 18682500 ps
+# Simulation time: 18682500 ps
+# Simulation time: 18682500 ps
+# Simulation time: 18682500 ps
+# Simulation time: 19322480 ps
+# Simulation time: 19322480 ps
+# Simulation time: 19322480 ps
+# Simulation time: 19322480 ps
+# Simulation time: 19322480 ps
+# Simulation time: 19322480 ps
+# Simulation time: 19322480 ps
+# Simulation time: 19322480 ps
+# Simulation time: 19897050 ps
+# ** Note: $finish    : Waveform2.vwf.vt(174)
+#    Time: 20 us  Iteration: 0  Instance: /TopDE_vlg_vec_tst
+# End time: 08:20:06 on Jun 24,2019, Elapsed time: 0:13:42
 # Errors: 0, Warnings: 294

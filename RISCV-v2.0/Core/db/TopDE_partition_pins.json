@@ -4,6 +4,154 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "LEDR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[9]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[10]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[11]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[12]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[13]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[14]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[15]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[16]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[17]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[18]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[19]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[20]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[21]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[22]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[23]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[24]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[25]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[26]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[27]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[28]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[29]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[30]",
+					"strict" : false
+				},
+				{
+					"name" : "PC[31]",
+					"strict" : false
+				},
+				{
 					"name" : "Saida_ULA[0]",
 					"strict" : false
 				},
@@ -132,171 +280,27 @@
 					"strict" : false
 				},
 				{
-					"name" : "MemD_Endereco[0]",
+					"name" : "Estado[0]",
 					"strict" : false
 				},
 				{
-					"name" : "MemD_Endereco[1]",
+					"name" : "Estado[1]",
 					"strict" : false
 				},
 				{
-					"name" : "MemD_Endereco[2]",
+					"name" : "Estado[3]",
 					"strict" : false
 				},
 				{
-					"name" : "MemD_Endereco[3]",
+					"name" : "Estado[4]",
 					"strict" : false
 				},
 				{
-					"name" : "MemD_Endereco[4]",
+					"name" : "Estado[5]",
 					"strict" : false
 				},
 				{
-					"name" : "MemD_Endereco[5]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[6]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[7]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[8]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[9]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[10]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[11]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[12]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[13]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[14]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[15]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[16]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[17]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[18]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[19]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[20]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[21]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[22]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[23]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[24]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[25]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[26]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[27]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[28]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[29]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[30]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_Endereco[31]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[12]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[13]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[14]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[15]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[20]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[15]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[16]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[17]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[18]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[19]",
+					"name" : "LEDR[6]",
 					"strict" : false
 				},
 				{
@@ -317,6 +321,290 @@
 				},
 				{
 					"name" : "BR_Leitura1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Estado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Uniao[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Uniao[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[6]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_B[7]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLANK_N",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[6]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_G[7]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_HS",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[6]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_R[7]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_VS",
 					"strict" : false
 				},
 				{
@@ -341,6 +629,346 @@
 				},
 				{
 					"name" : "BR_Leitura1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[15]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[16]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[17]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[18]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[19]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[20]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[21]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[22]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[23]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[24]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[25]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[26]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[27]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[28]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[29]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[30]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura1[31]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[16]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[17]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[18]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[19]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[20]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[21]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[22]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[23]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[24]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[25]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[26]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[27]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[28]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[29]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[30]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Leitura2[31]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[6]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[7]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[8]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[9]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[10]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[11]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[12]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[13]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[14]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[15]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[16]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[17]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[18]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[19]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[20]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[21]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[22]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[23]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[24]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[25]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[26]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[27]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[28]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[29]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[30]",
+					"strict" : false
+				},
+				{
+					"name" : "BR_Escrita[31]",
 					"strict" : false
 				},
 				{
@@ -600,671 +1228,131 @@
 					"strict" : false
 				},
 				{
-					"name" : "Debug[16]",
+					"name" : "MemD_Endereco[0]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[17]",
+					"name" : "MemD_Endereco[1]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[18]",
+					"name" : "MemD_Endereco[2]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[19]",
+					"name" : "MemD_Endereco[3]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[21]",
+					"name" : "MemD_Endereco[4]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[22]",
+					"name" : "MemD_Endereco[5]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[23]",
+					"name" : "MemD_Endereco[6]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[24]",
+					"name" : "MemD_Endereco[7]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[25]",
+					"name" : "MemD_Endereco[8]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[0]",
+					"name" : "MemD_Endereco[9]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[1]",
+					"name" : "MemD_Endereco[10]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[2]",
+					"name" : "MemD_Endereco[11]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[3]",
+					"name" : "MemD_Endereco[12]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[4]",
+					"name" : "MemD_Endereco[13]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[5]",
+					"name" : "MemD_Endereco[14]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[6]",
+					"name" : "MemD_Endereco[15]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[7]",
+					"name" : "MemD_Endereco[16]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[8]",
+					"name" : "MemD_Endereco[17]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[9]",
+					"name" : "MemD_Endereco[18]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[10]",
+					"name" : "MemD_Endereco[19]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[11]",
+					"name" : "MemD_Endereco[20]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[12]",
+					"name" : "MemD_Endereco[21]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[13]",
+					"name" : "MemD_Endereco[22]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[14]",
+					"name" : "MemD_Endereco[23]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[15]",
+					"name" : "MemD_Endereco[24]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[16]",
+					"name" : "MemD_Endereco[25]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[17]",
+					"name" : "MemD_Endereco[26]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[18]",
+					"name" : "MemD_Endereco[27]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[19]",
+					"name" : "MemD_Endereco[28]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[20]",
+					"name" : "MemD_Endereco[29]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[21]",
+					"name" : "MemD_Endereco[30]",
 					"strict" : false
 				},
 				{
-					"name" : "FRegister1[22]",
-					"strict" : false
-				},
-				{
-					"name" : "FRegister1[23]",
-					"strict" : false
-				},
-				{
-					"name" : "FRegister1[24]",
-					"strict" : false
-				},
-				{
-					"name" : "FRegister1[25]",
-					"strict" : false
-				},
-				{
-					"name" : "FRegister1[26]",
-					"strict" : false
-				},
-				{
-					"name" : "FRegister1[27]",
-					"strict" : false
-				},
-				{
-					"name" : "FRegister1[28]",
-					"strict" : false
-				},
-				{
-					"name" : "FRegister1[29]",
-					"strict" : false
-				},
-				{
-					"name" : "FRegister1[30]",
-					"strict" : false
-				},
-				{
-					"name" : "FRegister1[31]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[3]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[4]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[5]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[6]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[7]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[8]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[9]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[10]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[11]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[12]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[13]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[14]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[15]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[16]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[17]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[18]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[19]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[20]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[21]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[22]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[23]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[24]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[25]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[26]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[27]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[28]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[29]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[30]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada1_FPULA[31]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Escreve_FReg",
-					"strict" : false
-				},
-				{
-					"name" : "LEDR[0]",
-					"strict" : false
-				},
-				{
-					"name" : "LEDR[2]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[1]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[2]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[3]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[4]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[5]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[6]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[7]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[8]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[9]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[10]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[11]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[12]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[13]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[14]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[15]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[16]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[17]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[18]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[19]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[20]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[21]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[22]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[23]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[24]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[25]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[26]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[27]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[28]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[29]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[30]",
-					"strict" : false
-				},
-				{
-					"name" : "MemD_DadoLeitura[31]",
-					"strict" : false
-				},
-				{
-					"name" : "Uniao[2]",
-					"strict" : false
-				},
-				{
-					"name" : "LEDR[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[26]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[27]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[28]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[29]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[30]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[31]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[3]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[4]",
-					"strict" : false
-				},
-				{
-					"name" : "Debug[5]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[3]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[4]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[5]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[6]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[7]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[8]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[9]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[10]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[11]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[12]",
-					"strict" : false
-				},
-				{
-					"name" : "Instrucao[13]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[1]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[2]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[3]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[4]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[5]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[6]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[7]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[8]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[9]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[10]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[11]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[12]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[13]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[14]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[15]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[16]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[17]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[18]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[19]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[20]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[21]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[22]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[23]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[24]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[25]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[26]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[27]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[28]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[29]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[30]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[31]",
+					"name" : "MemD_Endereco[31]",
 					"strict" : false
 				},
 				{
@@ -1412,11 +1500,131 @@
 					"strict" : false
 				},
 				{
-					"name" : "Uniao[0]",
+					"name" : "Debug[0]",
 					"strict" : false
 				},
 				{
-					"name" : "Uniao[1]",
+					"name" : "Debug[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Debug[31]",
 					"strict" : false
 				},
 				{
@@ -1548,6 +1756,134 @@
 					"strict" : false
 				},
 				{
+					"name" : "FRegister1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[15]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[16]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[17]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[18]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[19]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[20]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[21]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[22]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[23]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[24]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[25]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[26]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[27]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[28]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[29]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[30]",
+					"strict" : false
+				},
+				{
+					"name" : "FRegister1[31]",
+					"strict" : false
+				},
+				{
 					"name" : "FRegister2[0]",
 					"strict" : false
 				},
@@ -1673,6 +2009,134 @@
 				},
 				{
 					"name" : "FRegister2[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada1_FPULA[31]",
 					"strict" : false
 				},
 				{
@@ -1804,27 +2268,83 @@
 					"strict" : false
 				},
 				{
-					"name" : "Debug[7]",
+					"name" : "Instrucao[0]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[8]",
+					"name" : "Instrucao[1]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[9]",
+					"name" : "Instrucao[2]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[10]",
+					"name" : "Instrucao[3]",
 					"strict" : false
 				},
 				{
-					"name" : "Debug[11]",
+					"name" : "Instrucao[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[13]",
 					"strict" : false
 				},
 				{
 					"name" : "Instrucao[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Instrucao[19]",
 					"strict" : false
 				},
 				{
@@ -1876,7 +2396,139 @@
 					"strict" : false
 				},
 				{
-					"name" : "Debug[6]",
+					"name" : "MemD_DadoLeitura[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[8]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[9]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[10]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[11]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[12]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[13]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[14]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[15]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[16]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[17]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[18]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[19]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[20]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[21]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[22]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[23]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[24]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[25]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[26]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[27]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[28]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[29]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[30]",
+					"strict" : false
+				},
+				{
+					"name" : "MemD_DadoLeitura[31]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LEDR[2]",
 					"strict" : false
 				},
 				{
@@ -1888,7 +2540,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "ADC_DIN",
+					"name" : "LEDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Escreve_FReg",
 					"strict" : false
 				},
 				{
@@ -1896,623 +2552,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "HEX0[0]",
+					"name" : "ADC_DIN",
 					"strict" : false
 				},
 				{
-					"name" : "HEX0[1]",
+					"name" : "LEDR[0]",
 					"strict" : false
 				},
 				{
-					"name" : "HEX0[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX0[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX0[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX0[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX0[6]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[0]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[1]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX1[6]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[0]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[1]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX2[6]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[0]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[1]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX3[6]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[0]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[1]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX4[6]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[0]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[1]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[2]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[3]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[4]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[5]",
-					"strict" : false
-				},
-				{
-					"name" : "HEX5[6]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[0]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[1]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[2]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[3]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[4]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[5]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[6]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_B[7]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_BLANK_N",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G[0]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G[1]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G[2]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G[3]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G[4]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G[5]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G[6]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_G[7]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_HS",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_R[0]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_R[1]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_R[2]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_R[3]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_R[4]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_R[5]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_R[6]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_R[7]",
-					"strict" : false
-				},
-				{
-					"name" : "VGA_VS",
-					"strict" : false
-				},
-				{
-					"name" : "PC[0]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[1]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[2]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[3]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[4]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[5]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[6]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[7]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[8]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[9]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[10]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[11]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[12]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[13]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[14]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[15]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[16]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[17]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[18]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[19]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[20]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[21]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[22]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[23]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[24]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[25]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[26]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[27]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[28]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[29]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[30]",
-					"strict" : false
-				},
-				{
-					"name" : "PC[31]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[11]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[12]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[13]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[14]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[15]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[16]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[17]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[18]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[19]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[20]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[21]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[22]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[23]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[24]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[25]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[26]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[27]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[28]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[29]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[30]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura1[31]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[0]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[1]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[2]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[3]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[4]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[5]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[6]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[7]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[8]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[9]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[10]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[11]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[12]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[13]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[14]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[15]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[16]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[17]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[18]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[19]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[20]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[21]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[22]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[23]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[24]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[25]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[26]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[27]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[28]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[29]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[30]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Leitura2[31]",
-					"strict" : false
-				},
-				{
-					"name" : "BR_Escrita[0]",
+					"name" : "Uniao[2]",
 					"strict" : false
 				},
 				{
@@ -2552,7 +2600,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "RegDispSelect[4]",
+					"name" : "SW[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[7]",
 					"strict" : false
 				},
 				{
@@ -2572,19 +2632,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "SW[8]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[9]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[7]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[6]",
+					"name" : "RegDispSelect[4]",
 					"strict" : false
 				},
 				{
@@ -2601,6 +2649,10 @@
 				},
 				{
 					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "SW[5]",
 					"strict" : false
 				},
 				{
@@ -2625,10 +2677,6 @@
 				},
 				{
 					"name" : "SW[4]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[5]",
 					"strict" : false
 				},
 				{

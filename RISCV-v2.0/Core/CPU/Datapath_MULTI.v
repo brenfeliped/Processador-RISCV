@@ -44,13 +44,19 @@ module Datapath_MULTI (
 	input  wire			 wCEscrevePCBack,
    input  wire	[ 1:0] wCOrigAULA,
    input  wire	[ 1:0] wCOrigBULA,	 
-   input  wire	[ 1:0] wCMem2Reg,
+   input  wire	[ 2:0] wCMem2Reg,
 	input  wire	[ 1:0] wCOrigPC,
 	input  wire			 wCIouD,
    input  wire			 wCRegWrite,
    input  wire			 wCMemWrite,
 	input  wire			 wCMemRead,
 	input  wire	[ 4:0] wCALUControl,
+	// sinais de  controle exercao e instrucoes CSR
+	input  wire [31:0] wCUcause,
+	input  wire        wCCSRWrite,
+   input  wire        wCEscreveCRSOut,
+   input  wire [2:0]  wCOrigWriteDataCSR,
+   input  wire [1:0]	 WCSelectNumRegCSR,
 `ifdef RV32IMF
 	output wire			 wFPALUReady,
 	input  wire        wCFRegWrite,
@@ -65,7 +71,13 @@ module Datapath_MULTI (
    output wire        DwReadEnable, DwWriteEnable,
    output wire [ 3:0] DwByteEnable,
    output wire [31:0] DwAddress, DwWriteData,
-   input  wire [31:0] DwReadData
+   input  wire [31:0] DwReadData,
+	// sinais output para execao
+	 output wire oOutText,
+	 output wire oOutData,
+	 output wire oPCMisaligned,
+	 output wire oExceptionLoad,
+	 output wire oExceptionStore
 );
 
 
@@ -80,7 +92,7 @@ assign mRead1				= A;
 assign mRead2				= B;
 assign mRegWrite			= wRegWrite;
 assign mULA					= ALUOut;
-assign mDebug				= 32'h000ACE10;	// Ligar onde for preciso	
+assign mDebug				= wCSRDataout;     // 32'h000ACE10;	// Ligar onde for preciso	
 assign wRegDispSelect 	= mRegDispSelect;
 assign wVGASelect 		= mVGASelect;
 assign mRegDisp			= wRegDisp;
@@ -108,7 +120,7 @@ assign mCFRegWrite      = wCFRegWrite;
 // ****************************************************** 
 // Instanciação e Inicializacao dos registradores		  						 
 
-reg 	[31:0] PC, PCBack, IR, MDR, A, B, ALUOut;
+reg 	[31:0] PC, PCBack, IR, MDR, A, B, ALUOut,CSROut;
 `ifdef RV32IMF
 reg   [31:0] FA, FB, FPALUOut;
 `endif
@@ -146,7 +158,6 @@ wire [ 2:0] wFunct3		= IR[14:12];
 // Unidade de controle de escrita 
 wire [31:0] wMemDataWrite;
 wire [ 3:0] wMemEnable;
-
 MemStore MEMSTORE0 (
     .iAlignment(wMemAddress[1:0]),
     .iFunct3(wFunct3),
@@ -157,7 +168,7 @@ MemStore MEMSTORE0 (
 `endif
     .oData(wMemDataWrite),
     .oByteEnable(wMemEnable),
-    .oException()
+    .oException(oExceptionStore)
 	);
 	
 
@@ -178,11 +189,24 @@ MemLoad MEMLOAD0 (
     .iFunct3(wFunct3),
     .iData(wReadData),
     .oData(wMemLoad),
-    .oException()
+    .oException(oExceptionLoad)
 	);
 	
 	
 
+//Banco de registradores CSR
+wire [31:0] wCSRDataout;
+CSRRegisters CSR0(
+	.iCLK(iCLK),
+	.iRST(iRST),
+	.iREGWrite(wCCSRWrite),
+	.iNumReg(wNumReg),
+	.iWriteData(wWriteDataCSR),
+	.iPC(PCBack),
+	.iUcause(wCUcause),
+	.iInstr(wInstr),
+	.oCSRInstOut(wCSRDataout)
+);
 // Banco de Registradores 
 wire [31:0] wRead1, wRead2;
 
@@ -278,10 +302,65 @@ FPALU FPALU0 (
 `endif
 
 
-
+// Sinais de exerção
+always @(*)
+if(PC[0]==0 && PC[1]==0)
+	begin
+	  oPCMisaligned= 1'b0;
+	end
+else
+	begin
+	  oPCMisaligned= 1'b1;
+	end
+always @(*)
+if(PC>=BEGINNING_TEXT && PC<=END_TEXT)
+begin
+   oOutText= 1'b0;
+end
+else
+begin
+	oOutText= 1'b1;
+end
+always @(*)
+if(wCOrigAULA==2'b10 && wCOrigBULA==2'b00)
+begin
+	if((ALUOut>=BEGINNING_DATA && ALUOut<=BEGINNING_DATA)  || ALUOut >= BEGINNING_IODEVICES)
+	begin
+		oOutData= 1'b0;
+	end
+	else
+	begin
+		oOutData = 1'b1;
+	end
+end
+	else
+begin
+	oOutData= 1'b0;
+end
 // ****************************************************** 
 // multiplexadores							  						 
 
+
+wire [6:0] wNumReg;
+always @(*)
+		case(WCSelectNumRegCSR)
+			2'b00: wNumReg <= wImmediate[6:0];// NUmero do registrador CSR
+		   2'b01:  wNumReg <= NUMUTVEC; // Numero do resgitrador utvec(5)
+			2'b10:  wNumReg <= NUMUEPC;// Numero do resgitrador uepc(65)
+			default: wNumReg <= NUMUTVEC;	
+		endcase
+		
+wire [31:0] wWriteDataCSR;
+always @(*)
+	case(wCOrigWriteDataCSR)
+		3'b000: wWriteDataCSR <= {27'b0,wRs1}; // Imediato das instrucoes CSR, CSR= zImm
+		3'b001: wWriteDataCSR <=  A;     // CSR = R[rs1]
+		3'b010: wWriteDataCSR <= wCSRDataout |  A;
+		3'b011: wWriteDataCSR <= wCSRDataout & ~A;
+		3'b100: wWriteDataCSR <= wCSRDataout | {27'b0,wRs1};
+		3'b101: wWriteDataCSR <= wCSRDataout & ~{27'b0,wRs1};
+		default: wWriteDataCSR <= ZERO;
+	endcase
 
 wire [31:0] wOrigAULA;
 always @(*)
@@ -306,12 +385,13 @@ always @(*)
 wire [31:0] wRegWrite;	 
 always @(*)
     case(wCMem2Reg)
-        2'b00:    wRegWrite <= ALUOut;
-        2'b01:    wRegWrite <= PC;
-        2'b10:    wRegWrite <= MDR;
+        3'b000:    wRegWrite <= ALUOut;
+        3'b001:    wRegWrite <= PC;
+        3'b010:    wRegWrite <= MDR;
 `ifdef RV32IMF                                        //RV32IMF
-		  2'b11:    wRegWrite <= FPALUOut; // Uma entrada a mais no multiplexador de escrita no registrador de inteiros
+		  3'b011:    wRegWrite <= FPALUOut; // Uma entrada a mais no multiplexador de escrita no registrador de inteiros
 `endif
+		  3'b100:    wRegWrite <= CSROut;
         default:  wRegWrite <= ZERO;
     endcase
 
@@ -322,7 +402,7 @@ always @(*)
 		2'b00:     wiPC <= wALUresult;				// PC+4
       2'b01:     wiPC <= ALUOut;						// Branches e jal
 		2'b10:	  wiPC <= wALUresult & ~(32'h1);	// jalr
-		default:	  wiPC <= ZERO;
+		2'b11:	  wiPC <= CSROut;                // exercao ou URET
 	endcase
 	
 	
@@ -333,6 +413,7 @@ always @(*)
 		1'b1:		wMemAddress <= ALUOut;
 		default:	wMemAddress <= ZERO;
 	endcase
+
 	
 `ifdef RV32IMF
 wire [31:0] wOrigAFPALU;
@@ -379,6 +460,7 @@ always @(posedge iCLK or posedge iRST)
 		MDR 		<= ZERO;
 		A 			<= ZERO;
 		B 			<= ZERO;
+		CSROut   <= ZERO;
 `ifdef RV32IMF
 	   FA       <= ZERO;
 	   FB       <= ZERO;
@@ -398,12 +480,17 @@ always @(posedge iCLK or posedge iRST)
 		FB       <= wFRead2;
 `endif
 
-		// Conditional 
+		// Conditional
+
+			
 		if (wCEscreveIR)
 			IR	<= wReadData;
 			
 		if (wCEscrevePCBack)
 			PCBack <= PC;
+		
+		if(wCEscreveCRSOut)
+			CSROut <= wCSRDataout;	
 			
 		if (wCEscrevePC || wBranch & wCEscrevePCCond)
 			PC	<= wiPC;	

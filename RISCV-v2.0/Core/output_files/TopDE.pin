@@ -117,8 +117,8 @@ VCCA_FPLL                    : AA8       : power  :                   : 2.5V    
 GND                          : AA9       : gnd    :                   :         :           :                
 VCCPD3A                      : AA10      : power  :                   : 2.5V    : 3A        :                
 GND                          : AA11      : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA12      :        :                   :         : 3A        :                
-MemD_DadoLeitura[26]         : AA13      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[24]         : AA12      : output : 2.5 V             :         : 3A        : N              
+MemD_DadoLeitura[18]         : AA13      : output : 2.5 V             :         : 3B        : N              
 KEY[0]                       : AA14      : input  : 2.5 V             :         : 3B        : Y              
 KEY[1]                       : AA15      : input  : 2.5 V             :         : 3B        : Y              
 CLOCK2_50                    : AA16      : input  : 2.5 V             :         : 4A        : Y              
@@ -148,11 +148,11 @@ altera_reserved_tdo          : AB9       : output : 2.5 V             :         
 VCCPGM                       : AB10      : power  :                   : 1.8V/2.5V/3.0V/3.3V :           :                
 VCC_AUX                      : AB11      : power  :                   : 2.5V    :           :                
 SW[0]                        : AB12      : input  : 2.5 V             :         : 3A        : Y              
-MemD_DadoLeitura[13]         : AB13      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[25]         : AB13      : output : 2.5 V             :         : 3B        : N              
 VCCIO3B                      : AB14      : power  :                   : 2.5V    : 3B        :                
-Instrucao[28]                : AB15      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[14]         : AB15      : output : 2.5 V             :         : 3B        : N              
 VCC_AUX                      : AB16      : power  :                   : 2.5V    :           :                
-Instrucao[7]                 : AB17      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB17      :        :                   :         : 4A        :                
 VCCPD3B4A                    : AB18      : power  :                   : 2.5V    : 3B, 4A    :                
 GND                          : AB19      : gnd    :                   :         :           :                
 VCCPD3B4A                    : AB20      : power  :                   : 2.5V    : 3B, 4A    :                
@@ -179,7 +179,7 @@ VCCPD3A                      : AC10      : power  :                   : 2.5V    
 VCCIO3A                      : AC11      : power  :                   : 2.5V    : 3A        :                
 SW[1]                        : AC12      : input  : 2.5 V             :         : 3A        : Y              
 VCCPD3B4A                    : AC13      : power  :                   : 2.5V    : 3B, 4A    :                
-Instrucao[13]                : AC14      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[12]         : AC14      : output : 2.5 V             :         : 3B        : N              
 VCCPD3B4A                    : AC15      : power  :                   : 2.5V    : 3B, 4A    :                
 GND                          : AC16      : gnd    :                   :         :           :                
 VCCPD3B4A                    : AC17      : power  :                   : 2.5V    : 3B, 4A    :                
@@ -209,7 +209,7 @@ SW[8]                        : AD10      : input  : 2.5 V             :         
 SW[4]                        : AD11      : input  : 2.5 V             :         : 3A        : Y              
 SW[5]                        : AD12      : input  : 2.5 V             :         : 3A        : Y              
 VCCIO3B                      : AD13      : power  :                   : 2.5V    : 3B        :                
-MemD_DadoLeitura[3]          : AD14      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[26]         : AD14      : output : 2.5 V             :         : 3B        : N              
 DNU                          : AD15      :        :                   :         :           :                
 VCCPD3B4A                    : AD16      : power  :                   : 2.5V    : 3B, 4A    :                
 GPIO_0[2]                    : AD17      : bidir  : 2.5 V             :         : 4A        : Y              
@@ -219,7 +219,7 @@ GPIO_0[25]                   : AD20      : bidir  : 2.5 V             :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : AD21      :        :                   :         : 4A        :                
 VCC_AUX                      : AD22      : power  :                   : 2.5V    :           :                
 GND                          : AD23      : gnd    :                   :         :           :                
-Instrucao[24]                : AD24      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD24      :        :                   :         : 4A        :                
 HEX3[2]                      : AD25      : output : 2.5 V             :         : 5A        : Y              
 HEX3[0]                      : AD26      : output : 2.5 V             :         : 5A        : Y              
 HEX1[6]                      : AD27      : output : 2.5 V             :         : 5A        : Y              
@@ -238,8 +238,8 @@ PS2_DAT2                     : AE9       : bidir  : 2.5 V             :         
 GND                          : AE10      : gnd    :                   :         :           :                
 SW[6]                        : AE11      : input  : 2.5 V             :         : 3A        : Y              
 SW[9]                        : AE12      : input  : 2.5 V             :         : 3A        : Y              
-MemD_DadoLeitura[11]         : AE13      : output : 2.5 V             :         : 3B        : N              
-MemD_DadoLeitura[14]         : AE14      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[28]         : AE13      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[1]          : AE14      : output : 2.5 V             :         : 3B        : N              
 VCCIO3B                      : AE15      : power  :                   : 2.5V    : 3B        :                
 GPIO_0[13]                   : AE16      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[18]                   : AE17      : bidir  : 2.5 V             :         : 4A        : Y              
@@ -248,7 +248,7 @@ GPIO_0[27]                   : AE19      : bidir  : 2.5 V             :         
 GND                          : AE20      : gnd    :                   :         :           :                
 VCCPD3B4A                    : AE21      : power  :                   : 2.5V    : 3B, 4A    :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AE22      :        :                   :         : 4A        :                
-Instrucao[15]                : AE23      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE23      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AE24      :        :                   :         : 4A        :                
 VCCIO4A                      : AE25      : power  :                   : 2.5V    : 4A        :                
 HEX0[0]                      : AE26      : output : 2.5 V             :         : 5A        : Y              
@@ -259,18 +259,18 @@ VCCIO5B                      : AE30      : power  :                   : 2.5V    
 GND                          : AF1       : gnd    :                   :         :           :                
 GND                          : AF2       : gnd    :                   :         :           :                
 GND                          : AF3       : gnd    :                   :         :           :                
-MemD_DadoLeitura[10]         : AF4       : output : 2.5 V             :         : 3A        : N              
-MemD_DadoLeitura[6]          : AF5       : output : 2.5 V             :         : 3A        : N              
-MemD_DadoLeitura[9]          : AF6       : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF4       :        :                   :         : 3A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF5       :        :                   :         : 3A        :                
+MemD_DadoLeitura[11]         : AF6       : output : 2.5 V             :         : 3A        : N              
 VCCIO3A                      : AF7       : power  :                   : 2.5V    : 3A        :                
-MemD_DadoLeitura[22]         : AF8       : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF8       :        :                   :         : 3A        :                
 SW[2]                        : AF9       : input  : 2.5 V             :         : 3A        : Y              
 SW[3]                        : AF10      : input  : 2.5 V             :         : 3A        : Y              
-MemD_DadoLeitura[28]         : AF11      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[3]          : AF11      : output : 2.5 V             :         : 3B        : N              
 GND                          : AF12      : gnd    :                   :         :           :                
-MemD_DadoLeitura[30]         : AF13      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[31]         : AF13      : output : 2.5 V             :         : 3B        : N              
 CLOCK_50                     : AF14      : input  : 2.5 V             :         : 3B        : Y              
-Instrucao[2]                 : AF15      : output : 2.5 V             :         : 3B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF15      :        :                   :         : 3B        :                
 GPIO_0[14]                   : AF16      : bidir  : 2.5 V             :         : 4A        : Y              
 GND                          : AF17      : gnd    :                   :         :           :                
 GPIO_0[32]                   : AF18      : bidir  : 2.5 V             :         : 4A        : Y              
@@ -278,37 +278,37 @@ GPIO_0[30]                   : AF19      : bidir  : 2.5 V             :         
 GPIO_0[28]                   : AF20      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[29]                   : AF21      : bidir  : 2.5 V             :         : 4A        : Y              
 VCCIO4A                      : AF22      : power  :                   : 2.5V    : 4A        :                
-Instrucao[22]                : AF23      : output : 2.5 V             :         : 4A        : N              
-Instrucao[21]                : AF24      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF23      :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF24      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF25      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AF26      :        :                   :         : 4A        :                
 GND                          : AF27      : gnd    :                   :         :           :                
 HEX0[4]                      : AF28      : output : 2.5 V             :         : 5A        : Y              
 HEX1[4]                      : AF29      : output : 2.5 V             :         : 5A        : Y              
 HEX1[5]                      : AF30      : output : 2.5 V             :         : 5A        : Y              
-MemD_DadoLeitura[18]         : AG1       : output : 2.5 V             :         : 3A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AG2       :        :                   :         : 3A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AG3       :        :                   :         : 3A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG1       :        :                   :         : 3A        :                
+MemD_DadoLeitura[5]          : AG2       : output : 2.5 V             :         : 3A        : N              
+MemD_DadoLeitura[0]          : AG3       : output : 2.5 V             :         : 3A        : N              
 VCCIO3A                      : AG4       : power  :                   : 2.5V    : 3A        :                
-MemD_DadoLeitura[25]         : AG5       : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG5       :        :                   :         : 3A        :                
 MemD_DadoLeitura[2]          : AG6       : output : 2.5 V             :         : 3A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG7       :        :                   :         : 3A        :                
-MemD_DadoLeitura[15]         : AG8       : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG8       :        :                   :         : 3A        :                
 GND                          : AG9       : gnd    :                   :         :           :                
-MemD_DadoLeitura[19]         : AG10      : output : 2.5 V             :         : 3B        : N              
-MemD_DadoLeitura[4]          : AG11      : output : 2.5 V             :         : 3B        : N              
-MemD_DadoLeitura[23]         : AG12      : output : 2.5 V             :         : 3B        : N              
-MemD_DadoLeitura[12]         : AG13      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[30]         : AG10      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[17]         : AG11      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[13]         : AG12      : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[19]         : AG13      : output : 2.5 V             :         : 3B        : N              
 GND                          : AG14      : gnd    :                   :         :           :                
-Instrucao[1]                 : AG15      : output : 2.5 V             :         : 3B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG15      :        :                   :         : 3B        :                
 GPIO_0[12]                   : AG16      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[15]                   : AG17      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[34]                   : AG18      : bidir  : 2.5 V             :         : 4A        : Y              
 VCCIO4A                      : AG19      : power  :                   : 2.5V    : 4A        :                
 GPIO_0[33]                   : AG20      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[31]                   : AG21      : bidir  : 2.5 V             :         : 4A        : Y              
-Instrucao[17]                : AG22      : output : 2.5 V             :         : 4A        : N              
-Instrucao[11]                : AG23      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG22      :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG23      :        :                   :         : 4A        :                
 GND                          : AG24      : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG25      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG26      :        :                   :         : 4A        :                
@@ -318,48 +318,48 @@ VCCIO5A                      : AG29      : power  :                   : 2.5V    
 HEX1[3]                      : AG30      : output : 2.5 V             :         : 5A        : Y              
 GND                          : AH1       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH2       :        :                   :         : 3A        :                
-MemD_DadoLeitura[16]         : AH3       : output : 2.5 V             :         : 3A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AH4       :        :                   :         : 3A        :                
-MemD_DadoLeitura[1]          : AH5       : output : 2.5 V             :         : 3A        : N              
+MemD_DadoLeitura[7]          : AH3       : output : 2.5 V             :         : 3A        : N              
+MemD_DadoLeitura[9]          : AH4       : output : 2.5 V             :         : 3A        : N              
+MemD_DadoLeitura[4]          : AH5       : output : 2.5 V             :         : 3A        : N              
 GND                          : AH6       : gnd    :                   :         :           :                
-MemD_DadoLeitura[7]          : AH7       : output : 2.5 V             :         : 3B        : N              
-MemD_DadoLeitura[17]         : AH8       : output : 2.5 V             :         : 3B        : N              
-MemD_DadoLeitura[29]         : AH9       : output : 2.5 V             :         : 3B        : N              
-Instrucao[6]                 : AH10      : output : 2.5 V             :         : 3B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH7       :        :                   :         : 3B        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH8       :        :                   :         : 3B        :                
+MemD_DadoLeitura[10]         : AH9       : output : 2.5 V             :         : 3B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH10      :        :                   :         : 3B        :                
 GND                          : AH11      : gnd    :                   :         :           :                
-Instrucao[19]                : AH12      : output : 2.5 V             :         : 3B        : N              
-MemD_DadoLeitura[27]         : AH13      : output : 2.5 V             :         : 3B        : N              
-Instrucao[4]                 : AH14      : output : 2.5 V             :         : 3B        : N              
-Instrucao[3]                 : AH15      : output : 2.5 V             :         : 3B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH12      :        :                   :         : 3B        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH13      :        :                   :         : 3B        :                
+MemD_DadoLeitura[8]          : AH14      : output : 2.5 V             :         : 3B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH15      :        :                   :         : 3B        :                
 VCCIO4A                      : AH16      : power  :                   : 2.5V    : 4A        :                
 GPIO_0[11]                   : AH17      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[10]                   : AH18      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[20]                   : AH19      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[22]                   : AH20      : bidir  : 2.5 V             :         : 4A        : Y              
 GND                          : AH21      : gnd    :                   :         :           :                
-Instrucao[23]                : AH22      : output : 2.5 V             :         : 4A        : N              
-Instrucao[16]                : AH23      : output : 2.5 V             :         : 4A        : N              
-Instrucao[8]                 : AH24      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH22      :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH23      :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH24      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH25      :        :                   :         : 4A        :                
 VCCIO4A                      : AH26      : power  :                   : 2.5V    : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH27      :        :                   :         : 4A        :                
 HEX0[6]                      : AH28      : output : 2.5 V             :         : 5A        : Y              
 HEX1[1]                      : AH29      : output : 2.5 V             :         : 5A        : Y              
 HEX1[2]                      : AH30      : output : 2.5 V             :         : 5A        : Y              
-MemD_DadoLeitura[24]         : AJ1       : output : 2.5 V             :         : 3A        : N              
-MemD_DadoLeitura[5]          : AJ2       : output : 2.5 V             :         : 3A        : N              
+MemD_DadoLeitura[15]         : AJ1       : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AJ2       :        :                   :         : 3A        :                
 GND                          : AJ3       : gnd    :                   :         :           :                
 ADC_CS_N                     : AJ4       : bidir  : 2.5 V             :         : 3B        : Y              
-MemD_DadoLeitura[20]         : AJ5       : output : 2.5 V             :         : 3B        : N              
-MemD_DadoLeitura[0]          : AJ6       : output : 2.5 V             :         : 3B        : N              
-MemD_DadoLeitura[31]         : AJ7       : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[16]         : AJ5       : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[20]         : AJ6       : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[29]         : AJ7       : output : 2.5 V             :         : 3B        : N              
 VCCIO3B                      : AJ8       : power  :                   : 2.5V    : 3B        :                
-MemD_DadoLeitura[8]          : AJ9       : output : 2.5 V             :         : 3B        : N              
-Instrucao[0]                 : AJ10      : output : 2.5 V             :         : 3B        : N              
-Instrucao[26]                : AJ11      : output : 2.5 V             :         : 3B        : N              
-Instrucao[31]                : AJ12      : output : 2.5 V             :         : 3B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AJ9       :        :                   :         : 3B        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AJ10      :        :                   :         : 3B        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AJ11      :        :                   :         : 3B        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AJ12      :        :                   :         : 3B        :                
 VCCIO3B                      : AJ13      : power  :                   : 2.5V    : 3B        :                
-Instrucao[10]                : AJ14      : output : 2.5 V             :         : 3B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AJ14      :        :                   :         : 3B        :                
 VREFB3BN0                    : AJ15      : power  :                   :         : 3B        :                
 GPIO_0[9]                    : AJ16      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[8]                    : AJ17      : bidir  : 2.5 V             :         : 4A        : Y              
@@ -367,9 +367,9 @@ GND                          : AJ18      : gnd    :                   :         
 GPIO_0[7]                    : AJ19      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[21]                   : AJ20      : bidir  : 2.5 V             :         : 4A        : Y              
 GPIO_0[35]                   : AJ21      : bidir  : 2.5 V             :         : 4A        : Y              
-Instrucao[18]                : AJ22      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AJ22      :        :                   :         : 4A        :                
 VCCIO4A                      : AJ23      : power  :                   : 2.5V    : 4A        :                
-Instrucao[20]                : AJ24      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AJ24      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AJ25      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AJ26      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AJ27      :        :                   :         : 4A        :                
@@ -380,15 +380,15 @@ ADC_SCLK                     : AK2       : output : 2.5 V             :         
 ADC_DOUT                     : AK3       : input  : 2.5 V             :         : 3B        : Y              
 ADC_DIN                      : AK4       : output : 2.5 V             :         : 3B        : Y              
 GND                          : AK5       : gnd    :                   :         :           :                
-MemD_DadoLeitura[21]         : AK6       : output : 2.5 V             :         : 3B        : N              
-Instrucao[25]                : AK7       : output : 2.5 V             :         : 3B        : N              
-Instrucao[29]                : AK8       : output : 2.5 V             :         : 3B        : N              
-Instrucao[27]                : AK9       : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[23]         : AK6       : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[6]          : AK7       : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[21]         : AK8       : output : 2.5 V             :         : 3B        : N              
+MemD_DadoLeitura[22]         : AK9       : output : 2.5 V             :         : 3B        : N              
 VCCIO3B                      : AK10      : power  :                   : 2.5V    : 3B        :                
-Instrucao[5]                 : AK11      : output : 2.5 V             :         : 3B        : N              
-Instrucao[14]                : AK12      : output : 2.5 V             :         : 3B        : N              
-Instrucao[12]                : AK13      : output : 2.5 V             :         : 3B        : N              
-Instrucao[9]                 : AK14      : output : 2.5 V             :         : 3B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AK11      :        :                   :         : 3B        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AK12      :        :                   :         : 3B        :                
+MemD_DadoLeitura[27]         : AK13      : output : 2.5 V             :         : 3B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AK14      :        :                   :         : 3B        :                
 GND                          : AK15      : gnd    :                   :         :           :                
 GPIO_0[4]                    : AK16      : bidir  : 2.5 V             :         : 4A        : Y              
 VREFB4AN0                    : AK17      : power  :                   :         : 4A        :                
@@ -400,7 +400,7 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AK22      :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AK23      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AK24      :        :                   :         : 4A        :                
 GND                          : AK25      : gnd    :                   :         :           :                
-Instrucao[30]                : AK26      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AK26      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AK27      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AK28      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AK29      :        :                   :         : 4A        :                
